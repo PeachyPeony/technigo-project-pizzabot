@@ -31,6 +31,12 @@ if (foodChoice == 1) {
 
 // Step 3 - Subtype choice
 // Your code goes here 
+let pizzaChoice;
+let pastaChoice;
+let saladChoice;
+let orderItem;
+let cost;
+
 if (foodType == "Pizza") {
   let pizzaChoice = prompt(
     "Choose your pizza:\n" +
@@ -40,10 +46,13 @@ if (foodType == "Pizza") {
   );
 
   if (pizzaChoice == 1) {
+    orderItem = "Margherita Pizza";
     alert("You selected Margherita Pizza.");
   } else if (pizzaChoice == 2) {
+    orderItem = "Pepperoni Pizza";
     alert("You selected Pepperoni Pizza.");
   } else if (pizzaChoice == 3) {
+    orderItem = "Hawaiian Pizza";
     alert("You selected Hawaiian Pizza.");
   } else {
     alert("Invalid pizza choice.");
@@ -58,10 +67,13 @@ if (foodType == "Pizza") {
   );
 
   if (pastaChoice == 1) {
+    orderItem = "Spaghetti";
     alert("You selected Spaghetti.");
   } else if (pastaChoice == 2) {
+    orderItem = "Carbonara";
     alert("You selected Carbonara.");
   } else if (pastaChoice == 3) {
+    orderItem = "Puttanesca";
     alert("You selected Puttanesca.");
   } else {
     alert("Invalid pasta choice.");
@@ -77,10 +89,13 @@ if (foodType == "Pizza") {
   );
 
   if (saladChoice == 1) {
-    alert("You selected Ceaser Salad.");
+    orderItem = "Ceasar Salad";
+    alert("You selected Ceasar Salad.");
   } else if (saladChoice == 2) {
+    orderItem = "Greek Salad";
     alert("You selected Greek Salad.");
   } else if (saladChoice == 3) {
+    orderItem = "Garden Salad";
     alert("You selected Garden Salad.");
   } else {
     alert("Invalid salad choice.");
