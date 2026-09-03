@@ -136,3 +136,14 @@ alert(orderMessage);
 
 // Step 5 - Order confirmation
 // Your code goes here
+let confirmation = prompt(
+  "Would you like to confirm your order?\n" +
+  "Please enter yes or no:"
+);
+
+if (confirmation.toLowerCase() == "yes") {
+  alert(`Thank you, ${userName}! Your meal will be prepared.`);
+} else {
+  alert(`No problem, ${userName}. Thank you for visiting! ` +
+    "We hope you will return for a future order.");
+}
