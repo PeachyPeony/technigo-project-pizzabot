@@ -104,6 +104,35 @@ if (foodType == "Pizza") {
 
 // Step 4 - Age
 // Your code goes here
+let age = prompt(
+  "Is this order for a child or an adult?\n" +
+  "1. Child\n" +
+  "2. Adult\n\n" +
+  "Please enter 1 or 2:"
+);
+
+if (age == 1) {
+  cost = 8;
+} else if (age == 2) {
+  cost = 12;
+} else {
+  alert("Invalid choice. Please enter 1 or 2.");
+}
+
+let ageType;
+
+if (age == 1) {
+  ageType = "Child";
+} else if (age == 2) {
+  ageType = "Adult";
+}
+
+let orderMessage =
+  `Order for ${userName}: ${orderItem}\n` +
+  `Age: ${ageType}\n` +
+  `Cost: £${cost}`;
+
+alert(orderMessage);
 
 // Step 5 - Order confirmation
 // Your code goes here
