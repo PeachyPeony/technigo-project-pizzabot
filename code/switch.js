@@ -1,7 +1,7 @@
 // Step 1 - Welcome and introduction
 alert(
     `Welcome to our Javascript Pizzeria. Ready to Start? - Click 'OK' to begin.`
-)
+);
 
 let userName = prompt("What is your name?");
 
@@ -12,9 +12,16 @@ alert(`Hello and welcome, ${userName}!`);
 let foodChoice = prompt("What type of food would you like to order? Please enter a number.\n" +
     "1. Pizza\n" +
     "2. Pasta\n" +
-    "3. Salad");
+    "3. Salad"
+);
 
 let foodType;
+let pizzaChoice;
+let pastaChoice;
+let saladChoice;
+let orderItem;
+let cost;
+let ageType;
 
 switch (foodChoice) {
     case "1":
@@ -26,10 +33,11 @@ switch (foodChoice) {
         break;
 
     case "3":
-        foodType = "Salad;"
+        foodType = "Salad";
         break;
 
-    default: alert("Invalid choice.");
+    default:
+        alert("Invalid choice.");
 }
 
 // Step 3 - Subtype choice 
@@ -74,7 +82,8 @@ switch (foodType) {
         );
 
         switch (pastaChoice) {
-            case "1": orderItem = "Spaghetti";
+            case "1":
+                orderItem = "Spaghetti";
                 alert("You selected Spaghetti.");
                 break;
 
@@ -88,7 +97,8 @@ switch (foodType) {
                 alert("You selected Puttanesca.");
                 break;
 
-            default: alert("Invalid pasta choice.");
+            default:
+                alert("Invalid pasta choice.");
         }
 
         break;
@@ -97,7 +107,7 @@ switch (foodType) {
 
         saladChoice = prompt(
             "Choose your salad:\n" +
-            "1. Ceasar Salad\n" +
+            "1. Caesar Salad\n" +
             "2. Greek Salad\n" +
             "3. Garden Salad"
         );
@@ -132,8 +142,6 @@ let age = prompt(
     "Please enter 1 or 2:"
 );
 
-let ageType;
-
 switch (age) {
     case "1":
         ageType = "Child";
@@ -162,7 +170,7 @@ let confirmation = prompt(
     "Please enter yes or no:"
 );
 
-switch (confirmation.toLocaleLowerCase()) {
+switch (confirmation.toLowerCase()) {
     case "yes":
         alert(`Thank you, ${userName}! Your meal will be prepared.`);
         break;
