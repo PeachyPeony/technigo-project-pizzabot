@@ -83,14 +83,14 @@ if (foodType == "Pizza") {
 
   let saladChoice = prompt(
     "Choose your salad:\n" +
-    "1. Ceasar Salad\n" +
+    "1. Caesar Salad\n" +
     "2. Greek Salad\n" +
     "3. Garden Salad"
   );
 
   if (saladChoice == 1) {
-    orderItem = "Ceasar Salad";
-    alert("You selected Ceasar Salad.");
+    orderItem = "Caesar Salad";
+    alert("You selected Caesar Salad.");
   } else if (saladChoice == 2) {
     orderItem = "Greek Salad";
     alert("You selected Greek Salad.");
