@@ -83,7 +83,7 @@ if (foodType == "Pizza") {
 
   let saladChoice = prompt(
     "Choose your salad:\n" +
-    "1. Caesar Salad\n" +
+    "1. Ceasar Salad\n" +
     "2. Greek Salad\n" +
     "3. Garden Salad"
   );
