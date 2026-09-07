@@ -123,3 +123,35 @@ switch (foodType) {
         }
         break;
 }
+
+// Step 4 - Age
+let age = prompt(
+    "Is this order for a child or an adult?\n" +
+    "1. Child\n" +
+    "2. Adult\n\n" +
+    "Please enter 1 or 2:"
+);
+
+let ageType;
+
+switch (age) {
+    case "1":
+        ageType = "Child";
+        cost = 8;
+        break;
+
+    case "2":
+        ageType = "Adult";
+        cost = 12;
+        break;
+
+    default:
+        alert("Invalid choice. Please enter 1 or 2.");
+}
+
+let orderMessage =
+    `Order for ${userName}: ${orderItem}\n` +
+    `Age: ${ageType}\n` +
+    `Cost: £${cost}`;
+
+alert(orderMessage);
