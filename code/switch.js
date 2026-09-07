@@ -155,3 +155,23 @@ let orderMessage =
     `Cost: £${cost}`;
 
 alert(orderMessage);
+
+// Step 5 - Order confirmation
+let confirmation = prompt(
+    "Would you like to confirm your order?\n" +
+    "Please enter yes or no:"
+);
+
+switch (confirmation.toLocaleLowerCase()) {
+    case "yes":
+        alert(`Thank you, ${userName}! Your meal will be prepared.`);
+        break;
+
+    case "no":
+        alert(`No problem, ${userName}. Thank you for visiting! ` +
+            "We hope you will return for a future order.");
+        break;
+
+    default:
+        alert("Please enter yes or no.");
+}
