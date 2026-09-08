@@ -72,4 +72,4 @@ Through this project I practised:
 https://technigo-project-pizzabot-cy8.pages.dev/ 
 
 ## Author 
-Made by Alicia in 2026 as part of a web developmet bootcamp.
+Made by Alicia in 2026 as part of Technigo's web development bootcamp.
