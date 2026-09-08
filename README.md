@@ -44,6 +44,29 @@ The program then displays an order summary containing the customer's name, selec
 ### 5. Confirm the order
 Finally, the user can confirm or cancel the order. If the order is confirmed, the program displays a message saying that the meal will be prepared. If the user cancels the order the program displays a message confirming the order has ben cancelled. 
 
+## Stretch goal: Refractoring
+After completing the orgiginal Pizzabot, I chose to complete the optional stretch goal of refactoring the code.
+The original Pizzabot uses `if`, `else if` and `else` statements and is kept in: script.js
+The refactored version is kept separately in: switch.js
+
+In switch.js I replaces the if/else statements with switch, case and default statements while keeping the original functionality. Keeping both files makes it possible to compare the original and refactored versions. 
+
+## Technologies used
+- HTML 
+- CSS
+- JavaScript
+
+## What I learned
+Through this project I practised: 
+- Declaring and using variables
+- Getting user input with prompt()
+- Displaying information with alert()
+- Using conditional statements
+- Working with switch and case
+- Using break and default
+- Using nested switch statements
+- Refactoring existing code
+- Testing and debugging JavaScript
 
 
 
