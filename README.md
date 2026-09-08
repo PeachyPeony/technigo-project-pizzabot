@@ -46,8 +46,8 @@ Finally, the user can confirm or cancel the order. If the order is confirmed, th
 
 ## Stretch goal: Refractoring
 After completing the orgiginal Pizzabot, I chose to complete the optional stretch goal of refactoring the code.
-The original Pizzabot uses `if`, `else if` and `else` statements and is kept in: script.js
-The refactored version is kept separately in: switch.js
+The original Pizzabot uses `if`, `else if` and `else` statements and is kept in: 
+script.js. The refactored version is kept separately in: switch.js.
 
 In switch.js I replaces the if/else statements with switch, case and default statements while keeping the original functionality. Keeping both files makes it possible to compare the original and refactored versions. 
 
@@ -68,14 +68,8 @@ Through this project I practised:
 - Refactoring existing code
 - Testing and debugging JavaScript
 
-
-
-
-
-
-
-
-
-
 ## View it live
-https://technigo-project-pizzabot-cy8.pages.dev/
+https://technigo-project-pizzabot-cy8.pages.dev/ 
+
+## Author 
+Made by Alicia in 2026 as part of a web developmet bootcamp.
